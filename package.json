@@ -1,5 +1,5 @@
 {
-  "name": "bs-highland",
+  "name": "@amsross/bs-highland",
   "version": "0.0.0-development",
   "description": "Bucklescript bindings for highland",
   "main": "index.js",
