@@ -1,0 +1,9 @@
+
+{
+  "branch": "master",
+  "repositoryUrl": "git@github.com:amsross/bs-highland.git",
+  "plugins": [
+    ["@semantic-release/commit-analyzer", { "preset": "angular" }],
+    ["@semantic-release/release-notes-generator", { "preset": "angular" }]
+  ]
+}
