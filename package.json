@@ -32,5 +32,8 @@
   },
   "peerDependencies": {
     "highland": "^2.13.4"
+  },
+  "dependencies": {
+    "highland": "^3.0.0-beta.10"
   }
 }
