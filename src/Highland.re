@@ -92,6 +92,7 @@ external flatFilter: (t('e, 'a), 'a => t('e, bool)) => t('e, 'a) =
   "flatFilter";
 [@bs.send]
 external flatMap: (t('e, 'a), 'a => t('e, 'b)) => t('e, 'b) = "flatMap";
+[@bs.send] external ap: (t('e, 'a => 'b), t('e, 'a)) => t('e, 'b) = "ap";
 [@bs.send] external flattenArray: t('e, array('a)) => t('e, 'a) = "flatten";
 [@bs.send]
 external flattenStreams: t('e, t('e, 'a)) => t('e, 'a) = "flatten";
