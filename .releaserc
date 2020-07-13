@@ -1,5 +1,5 @@
 {
-  "branch": "master",
+  "branches": ["master"],
   "repositoryUrl": "git@github.com:amsross/bs-highland.git",
   "plugins": [
     ["@semantic-release/commit-analyzer", { "preset": "angular" }],
