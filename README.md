@@ -18,14 +18,14 @@ Then add `@amsross/bs-highland` to `bs-dependencies` in your `bsconfig.json`:
 }
 ```
 
-# Build
+# Usage
 
-```
-npm run build
-```
+## Generators / Push / Next
 
-# Build + Watch
-
+Wrap pushed data in `Ok(data(thing))` and errors in `Error(err)`
 ```
-npm run start
+Highland.generator((push, next) => {
+  condition ? push(Ok(Highland.data("something"))) : push(Error(err));
+  setTimeout(() => next(Js.Nullable.null), 1000);
+});
 ```
